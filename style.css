@@ -1095,8 +1095,12 @@ h1, h2, h3, h4 {
 .challenge-desc p {
   font-size: 15px;
   color: var(--ink);
-  line-height: 1.6;
-  margin: 0;
+  line-height: 1.65;
+  margin: 0 0 14px;
+}
+
+.challenge-desc p:last-child {
+  margin-bottom: 0;
 }
 
 .sub-heading {
