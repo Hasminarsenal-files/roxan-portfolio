@@ -1201,10 +1201,15 @@ h1, h2, h3, h4 {
   margin: 0 0 10px;
 }
 
-.p-intro {
-  font-size: 13px;
-  color: var(--muted);
-  margin-bottom: 20px;
+.practice-card p {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.65;
+  margin: 0 0 14px;
+}
+
+.practice-card p:last-child {
+  margin-bottom: 0;
 }
 
 .practice-card ul {
