@@ -55,7 +55,7 @@ a {
 }
 
 .nav {
-  height: 74px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,7 +149,7 @@ h1, h2, h3, h4 {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .light {
@@ -161,7 +161,7 @@ h1, h2, h3, h4 {
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: end;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .section h2 {
@@ -180,13 +180,13 @@ h1, h2, h3, h4 {
 
 /* 01 — HOME / COVER HERO */
 .hero {
-  min-height: calc(100vh - 74px);
+  min-height: auto;
   display: grid;
   align-items: center;
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, #f7f9f2 0%, #e6f0e7 55%, #d9e9dd 100%);
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .hero-orb {
