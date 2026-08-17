@@ -1675,6 +1675,24 @@ footer {
   .mobile-action-cards {
     display: flex;
   }
+  .diagram-flow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    max-width: 320px;
+    margin: 0 auto 24px;
+  }
+  .diagram-flow .node {
+    text-align: center;
+    width: 100%;
+    padding: 10px 16px;
+  }
+  .diagram-flow .arr {
+    text-align: center;
+    transform: rotate(90deg);
+    display: block;
+    margin: 2px 0;
+  }
 }
 
 @media (max-width: 600px) {
